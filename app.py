@@ -9,7 +9,7 @@ def fetch_poster(movie_id):
 
     headers = {
         "accept": "application/json",
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmNTBmNWUyOThmNTExYzVkYTQwMzgxY2Y3YjBkY2NhMSIsIm5iZiI6MTczNjcyMzYwNS41MTIsInN1YiI6IjY3ODQ0Yzk1MjI1NjAyM2RmZDRlNThmOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.XMvwZo4Z1D09WXY2-YujBJqPQ-pg4-aINfDxeED0OPo"
+        "Authorization": "" #add ypur api key
     }
 
     response = requests.get(url, headers=headers)  # Include headers for authentication
